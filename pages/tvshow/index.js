@@ -2,7 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
-
+import SocialSharing from "../../components/SocialSharing";
+import Script from "next/script";
 // Sample JSON import (this will now be fetched in getStaticProps)
 import movies from "../../public/tvshow.json";
 
@@ -155,7 +156,7 @@ const HomePage = ({ categorizedItems }) => {
   return (
     <>
       <Head>
-        <title>Free Movies™ - Home Page.</title>
+        <title>Free Movies™ - TvShow Page.</title>
         <meta
           name="description"
           content="Watch and download movies, TV shows, and adult content online for free. Join the Free Movies™ community now!"
@@ -166,7 +167,7 @@ const HomePage = ({ categorizedItems }) => {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="alternate"
-          href="https://watchfreemovie.vercel.app/home"
+          href="https://watchfreemovie.vercel.app/tvshow"
           hreflang="en-us"
         />
         <meta
@@ -205,6 +206,9 @@ const HomePage = ({ categorizedItems }) => {
         />
        
       </Head>
+      <SocialSharing />
+      <Script src="../../../propler/ads.js" defer />
+      <Script src="../../../propler/ads2.js" defer />
       <div
         className="container mx-auto mt-3 text-center"
         style={{ marginTop: "50px", textShadow: "1px 1px 0px #000" }}
