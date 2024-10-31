@@ -252,6 +252,7 @@ const HomePage = ({ categorizedItems }) => {
           href="https://watchfreemovie.vercel.app/home"
           hreflang="en-us"
         />
+          <meta property="og:url" content="https://watchfreemovie.vercel.app/home" />
         <meta
           property="og:image"
           content="https://watchfreemovie.vercel.app/og_image.jpg"

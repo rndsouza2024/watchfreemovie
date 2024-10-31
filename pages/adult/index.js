@@ -164,13 +164,14 @@ const HomePage = ({ categorizedItems }) => {
         />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://watchfreemovie.vercel.app/home" />
+        <link rel="canonical" href="https://watchfreemovie.vercel.app/adult" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="alternate"
           href="https://watchfreemovie.vercel.app/adult"
           hreflang="en-us"
         />
+          <meta property="og:url" content="https://watchfreemovie.vercel.app/adult" />
         <meta
           property="og:image"
           content="https://watchfreemovie.vercel.app/og_image.jpg"
