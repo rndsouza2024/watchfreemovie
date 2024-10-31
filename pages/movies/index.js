@@ -157,7 +157,7 @@ const HomePage = ({ categorizedItems }) => {
   return (
     <>
       <Head>
-        <title>Free Movies™ - Home Page.</title>
+        <title>Free Movies™ - Movies Page.</title>
         <meta
           name="description"
           content="Watch and download movies, TV shows, and adult content online for free. Join the Free Movies™ community now!"
@@ -168,7 +168,7 @@ const HomePage = ({ categorizedItems }) => {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="alternate"
-          href="https://watchfreemovie.vercel.app/home"
+          href="https://watchfreemovie.vercel.app/movies"
           hreflang="en-us"
         />
         <meta
